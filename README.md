@@ -47,3 +47,9 @@ Set the frequency of distance measuring. It has to be like 500/n (n -> 2-500)
 Meaning the max freq is 250
 
 
+
+
+# Contributing
+Feel free to fork this repository and contribute! If you find any issues or want to suggest new features, please open an issue or submit a pull request.
+
+
