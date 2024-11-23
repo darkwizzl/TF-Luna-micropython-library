@@ -5,8 +5,8 @@ I thought of sharing this code here.
 
 
 
-The simplest way to use is
-
+### The simplest way to use is
+```
 from tfluna import TF_luna
 from time import sleep
 
@@ -16,10 +16,10 @@ tf_object = TF_luna(0,4,5)    # i2c bus 1/0, sda pin, scl pin
 while True:
   distance = tf_object.get_distance()   # here I am not considering the amp value and 
   print(distance)
-  sleep(0.01)
+  sleep(0.01)  #sleep is necessary , without sleep it would be stuck at one value
 
 
-
+```
 
 
 ## Methods 
